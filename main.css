@@ -1,5 +1,41 @@
 .container{
     display:flex;
     flex-direction: column;
-    width: 50vw;
+    font-style: italic;
+    text-align:center;
+}
+
+label{
+    display: block;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+body{
+    background-image: url('money.png');
+    background-repeat: no-repeat;
+}
+
+html,body{
+    height: 100%;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
+
+}
+
+table,th,tr,td{
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+   
+    height: 40px;
+    width: 260px;
+    
+}
+.change-table{
+    margin-left: auto;
+    margin-right: auto;
 }
